@@ -1,4 +1,8 @@
 import React from "react";
+import { heroStatics } from "./DataItems";
+import heroImage from "../assets/images/hero-image.jpg";
+import Image from "next/image";
+import { CircleChevronDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -13,9 +17,36 @@ const HeroSection = () => {
             we make it <span className=" text-red-500">Live</span>
           </h1>
 
-          <p className=" text-2xl text-gray-400 font-bold flex items-center justify-center w-2/4">
-            We listen to you to develop customized solutions that work
+          <p className=" text-2xl text-gray-400  flex items-center  self-start justify-end w-2/4">
+            We listen to you carefully to develop customized solutions that
+            work.
           </p>
+        </div>
+
+        <div className="flex items-center justify-between w-full mt-12">
+          <div className="">
+            {heroStatics.map((item: any, index: number) => {
+              return (
+                <div className="flex flex-col mb-4" key={index}>
+                  <h1 className=" text-4xl font-bold">{item.title}</h1>
+                  <p className=" text-2xl text-gray-400 py-4">
+                    {item.description}
+                  </p>
+                </div>
+              );
+            })}
+            <div className="flex flex-col items-center justify-center mt-8">
+              <p>scroll down</p>
+              <CircleChevronDown size={50} className="" />
+            </div>
+          </div>
+          <div className="flex items-center justify-end w-full">
+            <Image
+              src={heroImage}
+              alt="https://www.hawisoftware.com/"
+              className="flex w-[90%] items-center justify-center"
+            />
+          </div>
         </div>
       </div>
     </div>

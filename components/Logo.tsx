@@ -5,7 +5,7 @@ const Logo = () => {
     <Image
       src={logo}
       alt="https://www.hawisoftware.com/"
-      className="flex w-30 items-centerjustify-center"
+      className="flex w-40 items-centerjustify-center"
     />
   );
 };

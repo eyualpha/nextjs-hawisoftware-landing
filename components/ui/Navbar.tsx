@@ -2,14 +2,14 @@
 import Logo from "../Logo";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import { NavItems } from "../NavItems";
+import { NavItems } from "../DataItems";
 
 const Navbar = () => {
   const [showService, setShowService] = useState(false);
   return (
     <div className="w-full flex justify-between items-center  ">
       <div className="max-w-[1280px] flex flex-col  mx-auto w-full p-4 ">
-        <div className="flex items-start  gap-4 border-b border-b-gray-300 text-sm">
+        <div className="flex items-start  gap-4 border-b border-b-gray-300 text-sm pb-2">
           Need Help ? Talk to an Expert
           <span className="hover:text-red-500 duration-300 text-black">
             +251987654321
@@ -18,7 +18,7 @@ const Navbar = () => {
 
         <div className="flex items-center justify-between w-full h-[40px] mt-2">
           <Logo />
-          <div className=" flex items-center gap-4 text-sm ">
+          <div className=" flex items-center gap-4  ">
             {NavItems.map((item: any, index: number) => {
               return (
                 <div
