@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className="w-full flex justify-between items-center  ">
       <div className="max-w-[1280px] flex flex-col  mx-auto w-full p-4 ">
         <div className="flex items-center justify-between">
-          <h1 className="text-8xl font-bold text-gray-800 w-7xl">
+          <h1 className="text-8xl font-extrabold text-gray-800 w-7xl">
             You have an{" "}
             <span className="text-red-300">
               Idea <br />
@@ -35,8 +35,8 @@ const HeroSection = () => {
                 </div>
               );
             })}
-            <div className="flex flex-col items-center justify-center mt-8">
-              <p>scroll down</p>
+            <div className="flex flex-col items-center justify-center mt-8 ">
+              <p className="">scroll down</p>
               <CircleChevronDown size={50} className="" />
             </div>
           </div>

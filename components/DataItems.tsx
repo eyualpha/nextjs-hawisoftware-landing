@@ -23,11 +23,11 @@ export const NavItems: object[] = [
 
 export const heroStatics: Object[] = [
   {
-    title: "$100k+",
-    description: "Our clients earned with us",
+    title: "Experianced",
+    description: "Flexible developers",
   },
   {
-    title: "9+ years",
+    title: "4+ years",
     description: "Of industry experience",
   },
   {

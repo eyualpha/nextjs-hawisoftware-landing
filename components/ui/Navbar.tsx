@@ -16,7 +16,7 @@ const Navbar = () => {
           </span>
         </div>
 
-        <div className="flex items-center justify-between w-full h-[40px] mt-2">
+        <div className="flex items-center justify-between w-full h-[40px] mt-4">
           <Logo />
           <div className=" flex items-center gap-4  ">
             {NavItems.map((item: any, index: number) => {
