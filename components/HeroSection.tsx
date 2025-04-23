@@ -25,7 +25,7 @@ const HeroSection = () => {
 
         <div className="flex items-center justify-between w-full mt-12">
           <div className="">
-            {heroStatics.map((item: any, index: number) => {
+            {heroStatics.map((item, index) => {
               return (
                 <div className="flex flex-col mb-4" key={index}>
                   <h1 className=" text-4xl font-bold">{item.title}</h1>

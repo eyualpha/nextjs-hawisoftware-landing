@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between w-full h-[40px] mt-4">
           <Logo />
           <div className=" flex items-center gap-4  ">
-            {NavItems.map((item: any, index: number) => {
+            {NavItems.map((item, index) => {
               return (
                 <div
                   className=" cursor-pointer flex items-center"
@@ -34,7 +34,7 @@ const Navbar = () => {
                   )}
                   {item.list && item.list.length > 0 && showService && (
                     <div className=" absolute bg-white shadow-lg rounded-md mt-50">
-                      {item.list.map((subItem: any, subIndex: number) => {
+                      {item.list.map((subItem, subIndex) => {
                         return (
                           <div
                             key={subIndex}

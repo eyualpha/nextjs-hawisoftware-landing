@@ -1,4 +1,4 @@
-export const NavItems: object[] = [
+export const NavItems = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
   {
@@ -21,7 +21,7 @@ export const NavItems: object[] = [
   { name: "Contact", link: "/contact" },
 ];
 
-export const heroStatics: Object[] = [
+export const heroStatics = [
   {
     title: "Experianced",
     description: "Flexible developers",
