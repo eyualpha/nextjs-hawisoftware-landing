@@ -17,14 +17,14 @@ const HeroSection = () => {
             we make it <span className=" text-red-500">Live</span>
           </h1>
 
-          <p className=" text-2xl text-gray-400  flex items-center  self-start justify-end w-2/4">
+          <p className=" text-2xl text-gray-400  flex items-center  self-start justify-end w-2/4 ">
             We listen to you carefully to develop customized solutions that
             work.
           </p>
         </div>
 
         <div className="flex items-center justify-between w-full mt-12">
-          <div className="">
+          <div className="motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
             {heroStatics.map((item, index) => {
               return (
                 <div className="flex flex-col mb-4" key={index}>
@@ -37,7 +37,10 @@ const HeroSection = () => {
             })}
             <div className="flex flex-col items-center justify-center mt-8 ">
               <p className="">scroll down</p>
-              <CircleChevronDown size={50} className="" />
+              <CircleChevronDown
+                size={50}
+                className="motion-translate-y-loop-25"
+              />
             </div>
           </div>
           <div className="flex items-center justify-end w-full">
