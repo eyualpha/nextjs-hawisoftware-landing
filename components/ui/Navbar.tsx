@@ -9,8 +9,8 @@ const Navbar = () => {
   const [showService, setShowService] = useState(false);
   const [showMobileDropdown, setShowMobileDropdown] = useState(false);
   return (
-    <div className="w-full flex justify-between items-center  ">
-      <div className="max-w-[1280px] flex flex-col  mx-auto w-full p-4 ">
+    <div className="w-full flex justify-between items-center  top-0 z-50 bg-red-50 ">
+      <div className="max-w-[1280px] flex flex-col  mx-auto w-full px-4 pt-4">
         <div className="hidden md:flex items-start  gap-4 border-b border-b-gray-300 text-sm pb-2">
           Need Help ? Talk to an Expert
           <span className="hover:text-red-500 duration-300 text-black">
@@ -60,10 +60,10 @@ const Navbar = () => {
           </div>
         </div>
         {/* mobile nav border */}
-        <div className="w-full  border-gray-300 border-b flex md:hidden"></div>
+        <div className="w-full  border-gray-300 border-b flex md:hidden z-20"></div>
         {/* mobile dorpdown */}
         {showMobileDropdown && (
-          <div className="flex flex-col items-center gap-4 text-xl md:hidden w-[300px] h-full absolute bg-red-50 top-20 left-0 z-1 p-4 motion-preset-slide-right  duration-300">
+          <div className="flex flex-col items-center gap-4 text-xl md:hidden w-[300px] h-full absolute bg-red-50 top-20 left-0 z-10 p-4 motion-preset-slide-right duration-300">
             {NavItems.map((item, index) => {
               return (
                 <div
