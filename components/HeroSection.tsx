@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className="w-full flex justify-between items-center  ">
       <div className="max-w-[1280px] flex flex-col  mx-auto w-full p-4 ">
         <div className="flex items-center justify-between">
-          <h1 className="text-8xl font-extrabold text-gray-800 w-7xl">
+          <h1 className="text-8xl font-extrabold text-gray-800 w-7xl motion-preset-fade motion-duration-2000">
             You have an{" "}
             <span className="text-red-300">
               Idea <br />
