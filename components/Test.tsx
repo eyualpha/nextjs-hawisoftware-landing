@@ -1,6 +1,5 @@
 import React from "react";
 import { TestimonialData } from "./DataItems";
-import Image from "next/image";
 
 const Test = () => {
   return (
