@@ -77,10 +77,10 @@ const Test = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <Image
+                      <img
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                         src={item.image}
-                        alt=""
+                        alt="author profile"
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">

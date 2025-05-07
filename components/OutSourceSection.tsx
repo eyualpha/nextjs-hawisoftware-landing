@@ -18,13 +18,13 @@ const OutSourceSection = () => {
             <Image src={outSourceImage} alt="out source image" className="" />
           </div>
           <div className="flex flex-col md:gap-8 gap-4 justify-end md:items-end md:mb-4 mb-2 intersect-once intersect:motion-preset-slide-up w-full md:max-w-[400px] h-full">
-            <h1 className="font-bold text-3xl text-blue-500">
+            <h1 className="font-bold md:text-3xl text-xl text-blue-500">
               Do you want to develop a scalable Product?
             </h1>
-            <h1 className="font-bold text-3xl text-red-500">
+            <h1 className="font-bold md:text-3xl text-xl text-red-500">
               Do you need an Outsourced Developer or a remote team?
             </h1>
-            <h1 className="font-bold text-3xl text-green-500">
+            <h1 className="font-bold md:text-3xl text-xl text-green-500">
               Do you have a technical dilemma?
             </h1>
           </div>
@@ -34,8 +34,8 @@ const OutSourceSection = () => {
             Let’s have a call and find the best solution for your project.
           </h1>
           <div className="w-full flex items-center justify-center md:justify-end ">
-            <button className="flex items cenetr gap-4 border-2 rounded font-bold md:py-4 md:px-8 px-4 py-2 text-2xl hover:cursor-pointer">
-              <CalendarCheck size={30} /> <p>Book a meeting</p>
+            <button className="flex items-cenetr gap-4 md:border-2 border rounded md:font-bold md:py-4 md:px-8 px-4 py-2 md:text-2xl text-xl hover:cursor-pointer ">
+              <CalendarCheck size={25} /> <p>Book a meeting</p>
             </button>
           </div>
         </div>
