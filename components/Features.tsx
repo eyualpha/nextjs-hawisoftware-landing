@@ -25,7 +25,7 @@ const Features = () => {
           {FeaturesData.map((item, index) => {
             return (
               <div
-                className="motion-translate-y-in-100 intersect-once intersect:motion-preset-slide-up"
+                className="ease-in-out intersect:motion-preset-slide-up motion-delay-200"
                 key={index}
               >
                 <div className="flex flex-col md:gap-4 gap-2 justify-start md:mb-4 mb-2 intersect-once intersect:motion-preset-slide-up">

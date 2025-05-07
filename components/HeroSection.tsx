@@ -9,11 +9,11 @@ const HeroSection = () => {
       <div className="max-w-[1280px] flex flex-col  mx-auto w-full p-4 ">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <h1 className=" w-full text-6xl lg:text-7xl xl:text-8xl font-extrabold text-gray-800 md:w-7xl motion-preset-fade motion-duration-2000">
-            Hawi{" "}
+            Making{" "}
             <span className="text-red-300">
-              Software <br />
+              Better <br />
             </span>
-            <span className=" text-red-700">Solutions</span>
+            <span className=" text-red-700">Future</span>
           </h1>
 
           <p className="lg:text-3xl text-xl text-gray-400 mt-4 flex items-center  justify-center md:justify-end md:w-2/4 w-full">

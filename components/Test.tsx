@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Test = () => {
   return (
-    <section className="py-8 bg-gray-100 sm:py-16 lg:py-20">
+    <section className="py-8 bg-gray-50 sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <div className="text-center">
@@ -24,7 +24,7 @@ const Test = () => {
                   className="flex flex-col overflow-hidden shadow-xl rounded-xl"
                   key={index}
                 >
-                  <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7 hover:scale-105 transition-transform duration-300 ease-in-out intersect:motion-preset-slide-up motion-delay-200">
+                  <div className="flex flex-col justify-between flex-1 p-6 bg-red-50 lg:py-8 lg:px-7 hover:scale-105 transition-transform duration-300 ease-in-out intersect:motion-preset-slide-up motion-delay-200">
                     <div className="flex-1">
                       <div className="flex items-center">
                         <svg
@@ -77,7 +77,7 @@ const Test = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <Image
+                      <img
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                         src={item.image}
                         alt="author profile"

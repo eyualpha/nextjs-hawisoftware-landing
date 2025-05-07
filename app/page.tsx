@@ -1,7 +1,9 @@
+import ContactSection from "@/components/ContactSection";
 import Features from "@/components/Features";
 import HeroSection from "@/components/HeroSection";
 import OutSourceSection from "@/components/OutSourceSection";
 import ObserverProvider from "@/components/provider/ObserverProvider";
+import ServiceSection from "@/components/ServiceSection";
 import Techstack from "@/components/Techstack";
 import Test from "@/components/Test";
 import Navbar from "@/components/ui/Navbar";
@@ -17,6 +19,8 @@ const Home = () => {
         <Techstack />
         <Test />
         <OutSourceSection />
+        <ServiceSection />
+        <ContactSection />
       </div>
     </ObserverProvider>
   );

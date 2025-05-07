@@ -126,3 +126,17 @@ export const TestimonialData = [
       "Their expertise in software development helped us launch our product successfully. Highly recommend!",
   },
 ];
+export const serviceData = [
+  {
+    title: "End-to-end development",
+    description: "develop a Product",
+  },
+  {
+    title: "Team Extension",
+    description: "hire Outsourced Developers",
+  },
+  {
+    title: "IT consulting",
+    description: "resolve tech questions",
+  },
+];
