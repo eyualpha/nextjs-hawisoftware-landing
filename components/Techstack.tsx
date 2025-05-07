@@ -13,7 +13,7 @@ const Techstack = () => {
           </h1>
         </div>
         <div className=" flex w-full flex-wrap gap-4 justify-center">
-          {TechStackData.map((item: any, index: number) => {
+          {TechStackData.map((item, index) => {
             return (
               <div
                 className="bg-gray-200 md:p-6 p-2 rounded-2xl flex flex-wrap intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 intersect:motion-rotate-in-180"

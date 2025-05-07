@@ -2,7 +2,6 @@ import React from "react";
 import { heroStatics } from "./DataItems";
 import heroImage from "../assets/images/Background1.png";
 import Image from "next/image";
-import { CircleChevronDown } from "lucide-react";
 
 const HeroSection = () => {
   return (

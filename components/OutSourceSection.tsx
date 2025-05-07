@@ -1,5 +1,4 @@
 import React from "react";
-import withUsArrowIcon from "../assets/images/arrow.png";
 import outSourceImage from "../assets/images/out-source-image.png";
 import Image from "next/image";
 import { CalendarCheck } from "lucide-react";
