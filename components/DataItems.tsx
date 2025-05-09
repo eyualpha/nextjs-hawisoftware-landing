@@ -38,7 +38,7 @@ export const NavItems = [
     ],
     icon: true,
   },
-  { name: "Contact", link: "/contact" },
+  { name: "Contact", link: "#contact" },
 ];
 
 export const heroStatics = [
@@ -129,14 +129,14 @@ export const TestimonialData = [
 export const serviceData = [
   {
     title: "End-to-end development",
-    description: "develop a Product",
+    description: "Develop a Product",
   },
   {
     title: "Team Extension",
-    description: "hire Outsourced Developers",
+    description: "Hire Outsourced Developers",
   },
   {
     title: "IT consulting",
-    description: "resolve tech questions",
+    description: "Resolve tech questions",
   },
 ];

@@ -1,5 +1,5 @@
 import React from "react";
-import outSourceImage from "../assets/images/out-source-image.png";
+import outSourceImage from "../assets/images/contactUsImage.png";
 import Image from "next/image";
 import { CalendarCheck } from "lucide-react";
 
@@ -36,12 +36,13 @@ const OutSourceSection = () => {
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between  mx-auto w-full relative">
-          <h1 className=" md:flex lg:text-6xl md:text-5xl text-4xl font-bold md:w-1/2 md:absolute lg:left-24 py-4 intersect-once intersect:motion-preset-slide-up">
+          <h1 className=" md:flex lg:text-6xl md:text-5xl text-3xl font-bold md:w-1/2 md:absolute lg:left-24 py-4 intersect-once intersect:motion-preset-slide-up">
             Let’s have a call and find the best solution for your project.
           </h1>
           <div className="w-full flex items-center justify-center md:justify-end ">
-            <button className="flex items-cenetr justify-center gap-4 md:border-2 border rounded md:font-bold md:py-4 md:px-8 px-2 py-1 md:text-2xl mt-8 hover:cursor-pointer hover:text-red-400">
-              <CalendarCheck size={30} /> <p>Book a meeting</p>
+            <button className=" w-full md:w-auto flex items-cenetr justify-center gap-4 md:border-2 border rounded md:font-bold md:py-4 md:px-8 px-2 py-1 md:text-2xl md:mt-8 mt-2 hover:cursor-pointer hover:text-red-400">
+              <CalendarCheck size={30} />{" "}
+              <p className="font-bold text-xl">Book a meeting</p>
             </button>
           </div>
         </div>

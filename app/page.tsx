@@ -1,5 +1,6 @@
 import ContactSection from "@/components/ContactSection";
 import Features from "@/components/Features";
+import FooterSection from "@/components/FooterSection";
 import HeroSection from "@/components/HeroSection";
 import OutSourceSection from "@/components/OutSourceSection";
 import ObserverProvider from "@/components/provider/ObserverProvider";
@@ -21,6 +22,7 @@ const Home = () => {
         <OutSourceSection />
         <ServiceSection />
         <ContactSection />
+        <FooterSection />
       </div>
     </ObserverProvider>
   );

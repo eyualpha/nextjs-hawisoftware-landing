@@ -21,7 +21,7 @@ const Test = () => {
             <div className="relative grid max-w-lg grid-cols-1 gap-6 mx-auto md:max-w-none lg:gap-10 md:grid-cols-3">
               {TestimonialData.map((item, index) => (
                 <div
-                  className="flex flex-col overflow-hidden shadow-xl rounded-xl"
+                  className="flex flex-col overflow-hidden shadow-xl rounded-xl hover:scale-105 transition-transform duration-300"
                   key={index}
                 >
                   <div className="flex flex-col justify-between flex-1 p-6 bg-red-50 lg:py-8 lg:px-7 hover:scale-105 transition-transform duration-300 ease-in-out intersect:motion-preset-slide-up motion-delay-200">
@@ -77,7 +77,7 @@ const Test = () => {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <Image
+                      <img
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                         src={item.image}
                         alt="author profile"
