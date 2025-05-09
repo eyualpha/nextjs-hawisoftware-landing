@@ -88,18 +88,18 @@ const FooterSection = () => {
               </li>
             </ul>
           </div>
-          <div className="flex justify-around items-center gap-8 md:w-1/2 w-full pt-8 md:pt-0 ease-in-out intersect:motion-preset-slide-up motion-delay-200">
-            <div>
+          <div className="flex justify-around md:items-center gap-8 md:w-1/2 w-full pt-8 md:pt-0 ease-in-out intersect:motion-preset-slide-up motion-delay-200">
+            <div className="">
               <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
                 Company
               </p>
 
-              <ul className="mt-6 space-y-4">
+              <ul className="mt-6 space-y-4 text-sm md:text-base">
                 <li>
                   <a
                     href="#"
                     title=""
-                    className="flex text-base text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
+                    className="flex   text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
                   >
                     {" "}
                     About{" "}
@@ -110,7 +110,7 @@ const FooterSection = () => {
                   <a
                     href="#"
                     title=""
-                    className="flex text-base text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
+                    className="flex  text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
                   >
                     {" "}
                     Features{" "}
@@ -121,7 +121,7 @@ const FooterSection = () => {
                   <a
                     href="#"
                     title=""
-                    className="flex text-base text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
+                    className="flex  text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
                   >
                     {" "}
                     Works{" "}
@@ -132,7 +132,7 @@ const FooterSection = () => {
                   <a
                     href="#"
                     title=""
-                    className="flex text-base text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
+                    className="flex  text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
                   >
                     {" "}
                     Career{" "}
@@ -146,12 +146,12 @@ const FooterSection = () => {
                 Services
               </p>
 
-              <ul className="mt-6 space-y-4">
+              <ul className="mt-6 space-y-4 text-sm md:text-base">
                 <li>
                   <a
                     href="#"
                     title=""
-                    className="flex text-base text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
+                    className="flex  text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
                   >
                     {" "}
                     Custom Software Development{" "}
@@ -162,7 +162,7 @@ const FooterSection = () => {
                   <a
                     href="#"
                     title=""
-                    className="flex text-base text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
+                    className="flex  text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
                   >
                     {" "}
                     Software Consultacy{" "}
@@ -173,7 +173,7 @@ const FooterSection = () => {
                   <a
                     href="#"
                     title=""
-                    className="flex text-base text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
+                    className="flex  text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
                   >
                     {" "}
                     UI/UX Design{" "}
@@ -184,7 +184,7 @@ const FooterSection = () => {
                   <a
                     href="#"
                     title=""
-                    className="flex text-base text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
+                    className="flex  text-black transition-all duration-200 hover:text-red-400 focus:text-red-400"
                   >
                     {" "}
                     Testing and Quality Assurance{" "}
