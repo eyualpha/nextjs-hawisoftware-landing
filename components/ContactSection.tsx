@@ -22,12 +22,12 @@ const ContactSection = () => {
               <input
                 type="text"
                 placeholder="Name"
-                className=" border-2 border-gray-900 p-2 rounded-md w-full mb-4 placeholder:text-gray-900"
+                className=" border-2 border-gray-900 p-2 rounded-md w-full mb-4 placeholder:text-gray-400 placeholder:font-bold"
               />
               <input
-                type="text"
-                placeholder="Password"
-                className=" border-2 border-gray-900 p-2 rounded-md w-full mb-4 placeholder:text-gray-900"
+                type="email"
+                placeholder="Email"
+                className=" border-2 border-gray-900 p-2 rounded-md w-full mb-4 placeholder:text-gray-400 placeholder:font-bold"
               />
               <textarea
                 name=""
