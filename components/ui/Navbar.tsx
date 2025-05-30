@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showService, setShowService] = useState(false);
   const [showMobileDropdown, setShowMobileDropdown] = useState(false);
   return (
-    <div className="w-full flex justify-between items-center  top-0 z-50 bg-red-50 ">
+    <div className="w-full flex justify-between items-center  top-0 z-50  ">
       <div className="max-w-[1280px] flex flex-col  mx-auto w-full px-4 md:pt-2">
         <div className="hidden md:flex items-start  gap-4 border-b border-b-gray-300 text-sm pb-2">
           Need Help ? Talk to an Expert

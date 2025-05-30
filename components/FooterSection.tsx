@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const FooterSection = () => {
   return (
-    <section className="py-10 bg-red-50 sm:pt-16 lg:pt-24">
+    <section className="py-10  sm:pt-16 lg:pt-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex md:items-center flex-col md:flex-row justify-between w-full">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8 md:w-1/2 w-full ease-in-out intersect:motion-preset-slide-up motion-delay-200">

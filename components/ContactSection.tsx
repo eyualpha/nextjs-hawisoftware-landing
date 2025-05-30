@@ -6,7 +6,7 @@ import Image from "next/image";
 const ContactSection = () => {
   return (
     <div
-      className="w-full flex justify-between items-center bg-gray-50 "
+      className="w-full flex justify-between items-center bg-gray-100 "
       id="#contact"
     >
       <div className="max-w-[1280px] flex flex-col  mx-auto w-full p-4 ">
